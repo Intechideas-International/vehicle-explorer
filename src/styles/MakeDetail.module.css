@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.backLink {
+  color: var(--color-primary);
+  font-size: 0.9rem;
+  display: inline-block;
+  padding: 8px 0;
+}
+
+.backLink:hover {
+  text-decoration: underline;
+}
+
+.header {
+  padding: 8px 0;
+}
+
+.titleRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  color: var(--color-text-secondary);
+  margin-top: 4px;
+}
+
+.filters {
+  display: flex;
+  gap: 16px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--color-border);
+}
